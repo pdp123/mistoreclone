@@ -1,0 +1,104 @@
+.PreFooter1{
+    margin: 5vmax 0 0 0;
+    background-color: white;
+    padding: 1vmax;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.PreFooter1 div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    color: rgb(66, 66, 66,0.829);
+}
+.PreFooter1 div:hover svg{
+    fill: orangered;
+}
+.PreFooter1 div:hover p{
+    color: rgb(19, 18, 18);
+}
+/* .PreFooter1 svg{
+    transform: scale(1.8) translateY(-0.2vmax) translateX(-10px);
+    transition: all 0.5s;   
+}
+.PreFooter1 svg:hover{
+    transform: scale(3) translateX(-10px);
+} */
+.PreFooter1 svg{
+    transform: scale(2) translateY(-0.2vmax);
+    fill: rgba(37, 37, 37, 0.322);
+   margin: 2vmax;
+}
+
+/* PREFOTTER 2 */
+
+ .PreFootertwo{
+    display:grid;
+    height: 150px;
+    grid-template-columns: repeat(4,1fr);  
+    border: 10px black;
+} 
+.PreFootertwo > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.PreFootertwo > div>p{
+color: rgba(0, 0, 0, 0.799);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 1.5vmax;
+width: 18vmax;
+margin: 0%;
+}
+.PreFootertwo>div>span{
+    color: rgba(50, 51, 53, 0.848);
+    width: 18vmax;
+    font-size: 1vmax;
+}
+.PreFootertwo>div>div>input{
+    border:none;
+    outline: none;
+    padding: 0.5vmax 1vmax;
+    background-color: white;
+    font-size: 1vmax;
+    width: 20.4vmax;
+}
+.PreFootertwo>div>div>button{
+    border: none;
+    padding: 0.5vmax;
+    background-color: white;
+}
+.PreFootertwo>div>div{
+    border: 1px solid rgba(126, 126, 126, 0.493);
+}
+.PreFootertwo>div:nth-child(2)>span{
+    width: 22vmax;
+}
+
+.PreFootertwo>div:nth-child(3){
+    justify-content: center;
+    align-items: flex-end;
+}
+.PreFootertwo>div:nth-child(3)>span{
+    width: 14vmax;
+}
+.PreFootertwo>div:nth-child(3)>p{
+    width: 14vmax;
+}
+.PreFootertwo>div:nth-child(4){
+    flex-direction: row;
+}
+.PreFootertwo>div:nth-child(4)>svg{
+    cursor: pointer;
+    margin: 1vmax;
+    fill: rgba(138, 138, 138, 0.705);
+    transition: all 0.1sec;
+    cursor: pointer;
+}
+.PreFootertwo>div:nth-child(4)>svg:hover{
+    fill: black;
+}
